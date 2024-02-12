@@ -10,7 +10,7 @@ import Pool from "./pages/dapp/tokens/create-token/Pool";
 import { formDataContext } from "./contexts/formDataContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import 'big-integer';
+import 'big-integer'; 
 
 const App = () => {
   const { pathname } = useLocation();
